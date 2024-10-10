@@ -1,0 +1,610 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="285.288" tests="20" errors="0" skipped="0" failures="9">
+  <properties>
+    <property name="http.proxyHost" value="127.0.0.1"/>
+    <property name="java.specification.version" value="23"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/ajeng.hanifah/Downloads/PracticalAssessment5-master/target/test-classes:/Users/ajeng.hanifah/Downloads/PracticalAssessment5-master/target/classes:/Users/ajeng.hanifah/.m2/repository/org/seleniumhq/selenium/selenium-java/4.23.0/selenium-java-4.23.0.jar:/Users/ajeng.hanifah/.m2/repository/org/seleniumhq/selenium/selenium-api/4.23.0/selenium-api-4.23.0.jar:/Users/ajeng.hanifah/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.23.0/selenium-chrome-driver-4.23.0.jar:/Users/ajeng.hanifah/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/ajeng.hanifah/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.23.0/selenium-chromium-driver-4.23.0.jar:/Users/ajeng.hanifah/.m2/repository/org/seleniumhq/selenium/selenium-json/4.23.0/selenium-json-4.23.0.jar:/Users/ajeng.hanifah/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.23.0/selenium-manager-4.23.0.jar:/Users/ajeng.hanifah/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v125/4.23.0/selenium-devtools-v125-4.23.0.jar:/Users/ajeng.hanifah/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v126/4.23.0/selenium-devtools-v126-4.23.0.jar:/Users/ajeng.hanifah/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v127/4.23.0/selenium-devtools-v127-4.23.0.jar:/Users/ajeng.hanifah/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.23.0/selenium-devtools-v85-4.23.0.jar:/Users/ajeng.hanifah/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.23.0/selenium-edge-driver-4.23.0.jar:/Users/ajeng.hanifah/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.23.0/selenium-firefox-driver-4.23.0.jar:/Users/ajeng.hanifah/.m2/repository/org/seleniumhq/selenium/selenium-http/4.23.0/selenium-http-4.23.0.jar:/Users/ajeng.hanifah/.m2/repository/dev/failsafe/failsafe/3.3.2/failsafe-3.3.2.jar:/Users/ajeng.hanifah/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.23.0/selenium-ie-driver-4.23.0.jar:/Users/ajeng.hanifah/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.23.0/selenium-remote-driver-4.23.0.jar:/Users/ajeng.hanifah/.m2/repository/com/google/guava/guava/33.2.1-jre/guava-33.2.1-jre.jar:/Users/ajeng.hanifah/.m2/repository/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar:/Users/ajeng.hanifah/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/ajeng.hanifah/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/ajeng.hanifah/.m2/repository/com/google/errorprone/error_prone_annotations/2.26.1/error_prone_annotations-2.26.1.jar:/Users/ajeng.hanifah/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/Users/ajeng.hanifah/.m2/repository/io/opentelemetry/semconv/opentelemetry-semconv/1.25.0-alpha/opentelemetry-semconv-1.25.0-alpha.jar:/Users/ajeng.hanifah/.m2/repository/io/opentelemetry/opentelemetry-api/1.40.0/opentelemetry-api-1.40.0.jar:/Users/ajeng.hanifah/.m2/repository/io/opentelemetry/opentelemetry-context/1.40.0/opentelemetry-context-1.40.0.jar:/Users/ajeng.hanifah/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.40.0/opentelemetry-exporter-logging-1.40.0.jar:/Users/ajeng.hanifah/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.40.0/opentelemetry-sdk-common-1.40.0.jar:/Users/ajeng.hanifah/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.40.0/opentelemetry-sdk-extension-autoconfigure-spi-1.40.0.jar:/Users/ajeng.hanifah/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.40.0/opentelemetry-sdk-extension-autoconfigure-1.40.0.jar:/Users/ajeng.hanifah/.m2/repository/io/opentelemetry/opentelemetry-api-incubator/1.40.0-alpha/opentelemetry-api-incubator-1.40.0-alpha.jar:/Users/ajeng.hanifah/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.40.0/opentelemetry-sdk-trace-1.40.0.jar:/Users/ajeng.hanifah/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.40.0/opentelemetry-sdk-1.40.0.jar:/Users/ajeng.hanifah/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.40.0/opentelemetry-sdk-metrics-1.40.0.jar:/Users/ajeng.hanifah/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.40.0/opentelemetry-sdk-logs-1.40.0.jar:/Users/ajeng.hanifah/.m2/repository/net/bytebuddy/byte-buddy/1.14.18/byte-buddy-1.14.18.jar:/Users/ajeng.hanifah/.m2/repository/org/seleniumhq/selenium/selenium-os/4.23.0/selenium-os-4.23.0.jar:/Users/ajeng.hanifah/.m2/repository/org/apache/commons/commons-exec/1.4.0/commons-exec-1.4.0.jar:/Users/ajeng.hanifah/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.23.0/selenium-safari-driver-4.23.0.jar:/Users/ajeng.hanifah/.m2/repository/org/seleniumhq/selenium/selenium-support/4.23.0/selenium-support-4.23.0.jar:/Users/ajeng.hanifah/.m2/repository/org/testng/testng/7.10.2/testng-7.10.2.jar:/Users/ajeng.hanifah/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/ajeng.hanifah/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/ajeng.hanifah/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/ajeng.hanifah/.m2/repository/io/qameta/allure/allure-testng/2.21.0/allure-testng-2.21.0.jar:/Users/ajeng.hanifah/.m2/repository/io/qameta/allure/allure-java-commons/2.21.0/allure-java-commons-2.21.0.jar:/Users/ajeng.hanifah/.m2/repository/io/qameta/allure/allure-model/2.21.0/allure-model-2.21.0.jar:/Users/ajeng.hanifah/.m2/repository/io/qameta/allure/allure-test-filter/2.21.0/allure-test-filter-2.21.0.jar:/Users/ajeng.hanifah/.m2/repository/com/mysql/mysql-connector-j/8.0.33/mysql-connector-j-8.0.33.jar:/Users/ajeng.hanifah/.m2/repository/com/google/protobuf/protobuf-java/3.21.9/protobuf-java-3.21.9.jar:/Users/ajeng.hanifah/.m2/repository/org/postgresql/postgresql/42.6.0/postgresql-42.6.0.jar:/Users/ajeng.hanifah/.m2/repository/org/checkerframework/checker-qual/3.31.0/checker-qual-3.31.0.jar:/Users/ajeng.hanifah/.m2/repository/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar:/Users/ajeng.hanifah/.m2/repository/junit/junit/4.10/junit-4.10.jar:/Users/ajeng.hanifah/.m2/repository/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar:/Users/ajeng.hanifah/.m2/repository/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/Users/ajeng.hanifah/.m2/repository/org/jetbrains/annotations/15.0/annotations-15.0.jar:"/>
+    <property name="https.proxyPort" value="9090"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="user.timezone" value="Asia/Jakarta"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="23"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="ID"/>
+    <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/23/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/ajeng.hanifah/Downloads/PracticalAssessment5-master/target/surefire/surefirebooter-20241010131658273_3.jar /Users/ajeng.hanifah/Downloads/PracticalAssessment5-master/target/surefire 2024-10-10T13-16-58_218-jvmRun1 surefire-20241010131658273_1tmp surefire_0-20241010131658273_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/ajeng.hanifah/Downloads/PracticalAssessment5-master/target/test-classes:/Users/ajeng.hanifah/Downloads/PracticalAssessment5-master/target/classes:/Users/ajeng.hanifah/.m2/repository/org/seleniumhq/selenium/selenium-java/4.23.0/selenium-java-4.23.0.jar:/Users/ajeng.hanifah/.m2/repository/org/seleniumhq/selenium/selenium-api/4.23.0/selenium-api-4.23.0.jar:/Users/ajeng.hanifah/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.23.0/selenium-chrome-driver-4.23.0.jar:/Users/ajeng.hanifah/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/ajeng.hanifah/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.23.0/selenium-chromium-driver-4.23.0.jar:/Users/ajeng.hanifah/.m2/repository/org/seleniumhq/selenium/selenium-json/4.23.0/selenium-json-4.23.0.jar:/Users/ajeng.hanifah/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.23.0/selenium-manager-4.23.0.jar:/Users/ajeng.hanifah/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v125/4.23.0/selenium-devtools-v125-4.23.0.jar:/Users/ajeng.hanifah/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v126/4.23.0/selenium-devtools-v126-4.23.0.jar:/Users/ajeng.hanifah/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v127/4.23.0/selenium-devtools-v127-4.23.0.jar:/Users/ajeng.hanifah/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.23.0/selenium-devtools-v85-4.23.0.jar:/Users/ajeng.hanifah/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.23.0/selenium-edge-driver-4.23.0.jar:/Users/ajeng.hanifah/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.23.0/selenium-firefox-driver-4.23.0.jar:/Users/ajeng.hanifah/.m2/repository/org/seleniumhq/selenium/selenium-http/4.23.0/selenium-http-4.23.0.jar:/Users/ajeng.hanifah/.m2/repository/dev/failsafe/failsafe/3.3.2/failsafe-3.3.2.jar:/Users/ajeng.hanifah/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.23.0/selenium-ie-driver-4.23.0.jar:/Users/ajeng.hanifah/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.23.0/selenium-remote-driver-4.23.0.jar:/Users/ajeng.hanifah/.m2/repository/com/google/guava/guava/33.2.1-jre/guava-33.2.1-jre.jar:/Users/ajeng.hanifah/.m2/repository/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar:/Users/ajeng.hanifah/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/ajeng.hanifah/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/ajeng.hanifah/.m2/repository/com/google/errorprone/error_prone_annotations/2.26.1/error_prone_annotations-2.26.1.jar:/Users/ajeng.hanifah/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/Users/ajeng.hanifah/.m2/repository/io/opentelemetry/semconv/opentelemetry-semconv/1.25.0-alpha/opentelemetry-semconv-1.25.0-alpha.jar:/Users/ajeng.hanifah/.m2/repository/io/opentelemetry/opentelemetry-api/1.40.0/opentelemetry-api-1.40.0.jar:/Users/ajeng.hanifah/.m2/repository/io/opentelemetry/opentelemetry-context/1.40.0/opentelemetry-context-1.40.0.jar:/Users/ajeng.hanifah/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.40.0/opentelemetry-exporter-logging-1.40.0.jar:/Users/ajeng.hanifah/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.40.0/opentelemetry-sdk-common-1.40.0.jar:/Users/ajeng.hanifah/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.40.0/opentelemetry-sdk-extension-autoconfigure-spi-1.40.0.jar:/Users/ajeng.hanifah/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.40.0/opentelemetry-sdk-extension-autoconfigure-1.40.0.jar:/Users/ajeng.hanifah/.m2/repository/io/opentelemetry/opentelemetry-api-incubator/1.40.0-alpha/opentelemetry-api-incubator-1.40.0-alpha.jar:/Users/ajeng.hanifah/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.40.0/opentelemetry-sdk-trace-1.40.0.jar:/Users/ajeng.hanifah/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.40.0/opentelemetry-sdk-1.40.0.jar:/Users/ajeng.hanifah/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.40.0/opentelemetry-sdk-metrics-1.40.0.jar:/Users/ajeng.hanifah/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.40.0/opentelemetry-sdk-logs-1.40.0.jar:/Users/ajeng.hanifah/.m2/repository/net/bytebuddy/byte-buddy/1.14.18/byte-buddy-1.14.18.jar:/Users/ajeng.hanifah/.m2/repository/org/seleniumhq/selenium/selenium-os/4.23.0/selenium-os-4.23.0.jar:/Users/ajeng.hanifah/.m2/repository/org/apache/commons/commons-exec/1.4.0/commons-exec-1.4.0.jar:/Users/ajeng.hanifah/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.23.0/selenium-safari-driver-4.23.0.jar:/Users/ajeng.hanifah/.m2/repository/org/seleniumhq/selenium/selenium-support/4.23.0/selenium-support-4.23.0.jar:/Users/ajeng.hanifah/.m2/repository/org/testng/testng/7.10.2/testng-7.10.2.jar:/Users/ajeng.hanifah/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/ajeng.hanifah/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/ajeng.hanifah/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/ajeng.hanifah/.m2/repository/io/qameta/allure/allure-testng/2.21.0/allure-testng-2.21.0.jar:/Users/ajeng.hanifah/.m2/repository/io/qameta/allure/allure-java-commons/2.21.0/allure-java-commons-2.21.0.jar:/Users/ajeng.hanifah/.m2/repository/io/qameta/allure/allure-model/2.21.0/allure-model-2.21.0.jar:/Users/ajeng.hanifah/.m2/repository/io/qameta/allure/allure-test-filter/2.21.0/allure-test-filter-2.21.0.jar:/Users/ajeng.hanifah/.m2/repository/com/mysql/mysql-connector-j/8.0.33/mysql-connector-j-8.0.33.jar:/Users/ajeng.hanifah/.m2/repository/com/google/protobuf/protobuf-java/3.21.9/protobuf-java-3.21.9.jar:/Users/ajeng.hanifah/.m2/repository/org/postgresql/postgresql/42.6.0/postgresql-42.6.0.jar:/Users/ajeng.hanifah/.m2/repository/org/checkerframework/checker-qual/3.31.0/checker-qual-3.31.0.jar:/Users/ajeng.hanifah/.m2/repository/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar:/Users/ajeng.hanifah/.m2/repository/junit/junit/4.10/junit-4.10.jar:/Users/ajeng.hanifah/.m2/repository/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar:/Users/ajeng.hanifah/.m2/repository/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/Users/ajeng.hanifah/.m2/repository/org/jetbrains/annotations/15.0/annotations-15.0.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/ajeng.hanifah"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-09-17"/>
+    <property name="java.home" value="/opt/homebrew/Cellar/openjdk/23/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="https.proxyHost" value="127.0.0.1"/>
+    <property name="basedir" value="/Users/ajeng.hanifah/Downloads/PracticalAssessment5-master"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/ajeng.hanifah/Downloads/PracticalAssessment5-master/target/surefire/surefirebooter-20241010131658273_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="23"/>
+    <property name="user.name" value="ajeng.hanifah"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="14.7"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="localRepository" value="/Users/ajeng.hanifah/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/qk/lrxzqjc52274q1pr8kjg1_mw0000gq/T/"/>
+    <property name="java.version" value="23"/>
+    <property name="user.dir" value="/Users/ajeng.hanifah/Downloads/PracticalAssessment5-master"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/ajeng.hanifah/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="23"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="67.0"/>
+    <property name="http.proxyPort" value="9090"/>
+  </properties>
+  <testcase name="logoutUser" classname="com.automation.TestCase4" time="2.721">
+    <failure message="Unable to locate element: b&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception&#10;Build info: version: &apos;4.23.0&apos;, revision: &apos;4df0a231af&apos;&#10;System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;14.7&apos;, java.version: &apos;23&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Command: [7006affb-4fd0-4ba2-a9fb-791e66992e15, findElement {value=b, using=css selector}]&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 131.0.2, moz:accessibilityChecks: false, moz:buildID: 20241008210941, moz:debuggerAddress: 127.0.0.1:25526, moz:geckodriverVersion: 0.35.0, moz:headless: true, moz:platformVersion: 23.6.0, moz:processID: 27679, moz:profile: /var/folders/qk/lrxzqjc5227..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://127.0.0.1:25526/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}&#10;Session ID: 7006affb-4fd0-4ba2-a9fb-791e66992e15" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: b
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.7', java.version: '23'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [7006affb-4fd0-4ba2-a9fb-791e66992e15, findElement {value=b, using=css selector}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 131.0.2, moz:accessibilityChecks: false, moz:buildID: 20241008210941, moz:debuggerAddress: 127.0.0.1:25526, moz:geckodriverVersion: 0.35.0, moz:headless: true, moz:platformVersion: 23.6.0, moz:processID: 27679, moz:profile: /var/folders/qk/lrxzqjc5227..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://127.0.0.1:25526/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: 7006affb-4fd0-4ba2-a9fb-791e66992e15
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy20.getText(Unknown Source)
+	at com.automation.TestCase2.verifyThatLoggedInAsUsernameIsVisible(TestCase2.java:49)
+	at com.automation.TestCase2.loginUserWithCorrectEmailAndPassword(TestCase2.java:32)
+	at com.automation.TestCase4.logoutUser(TestCase4.java:30)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[Loaded URL: https://automationexercise.com/
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="viewCartBrandProducts" classname="com.automation.TestCase19" time="7.675">
+    <failure message="Verify that user is navigated to brand page expected [BRAND - POLO PRODUCTS] but found [BRAND -  POLO PRODUCTS]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Verify that user is navigated to brand page expected [BRAND - POLO PRODUCTS] but found [BRAND -  POLO PRODUCTS]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at com.automation.TestCase19.verifyThatUserIsNavigatedToBrandPageAndBrandProductsAreDisplayed(TestCase19.java:51)
+	at com.automation.TestCase19.viewCartBrandProducts(TestCase19.java:32)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[Loaded URL: https://automationexercise.com/
+]]></system-out>
+  </testcase>
+  <testcase name="contactUsForm" classname="com.automation.TestCase6" time="1.625">
+    <failure message="File not found: /Users/ajeng.hanifah/Downloads/PracticalAssessment5-master\src\test\java\com\automation\resources\sample.txt&#10;Build info: version: &apos;4.23.0&apos;, revision: &apos;4df0a231af&apos;&#10;System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;14.7&apos;, java.version: &apos;23&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Command: [fc6e3e30-c08f-40f9-a7dc-5f999ca83643, sendKeysToElement {id=aef8bab1-a89c-41b2-93c4-216e87b6e7b0, value=[Ljava.lang.CharSequence;@773c0293}]&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 131.0.2, moz:accessibilityChecks: false, moz:buildID: 20241008210941, moz:debuggerAddress: 127.0.0.1:46822, moz:geckodriverVersion: 0.35.0, moz:headless: true, moz:platformVersion: 23.6.0, moz:processID: 27741, moz:profile: /var/folders/qk/lrxzqjc5227..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://127.0.0.1:46822/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}&#10;Element: [[FirefoxDriver: firefox on mac (fc6e3e30-c08f-40f9-a7dc-5f999ca83643)] -&gt; name: upload_file]&#10;Session ID: fc6e3e30-c08f-40f9-a7dc-5f999ca83643" type="org.openqa.selenium.InvalidArgumentException"><![CDATA[org.openqa.selenium.InvalidArgumentException: 
+File not found: /Users/ajeng.hanifah/Downloads/PracticalAssessment5-master\src\test\java\com\automation\resources\sample.txt
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.7', java.version: '23'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [fc6e3e30-c08f-40f9-a7dc-5f999ca83643, sendKeysToElement {id=aef8bab1-a89c-41b2-93c4-216e87b6e7b0, value=[Ljava.lang.CharSequence;@773c0293}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 131.0.2, moz:accessibilityChecks: false, moz:buildID: 20241008210941, moz:debuggerAddress: 127.0.0.1:46822, moz:geckodriverVersion: 0.35.0, moz:headless: true, moz:platformVersion: 23.6.0, moz:processID: 27741, moz:profile: /var/folders/qk/lrxzqjc5227..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://127.0.0.1:46822/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Element: [[FirefoxDriver: firefox on mac (fc6e3e30-c08f-40f9-a7dc-5f999ca83643)] -> name: upload_file]
+Session ID: fc6e3e30-c08f-40f9-a7dc-5f999ca83643
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy20.sendKeys(Unknown Source)
+	at com.automation.pages.ContactUsPage.fillForm(ContactUsPage.java:56)
+	at com.automation.TestCase6.verifySuccessMessageSuccessYourDetailsHaveBeenSubmittedSuccessfullyIsVisible(TestCase6.java:47)
+	at com.automation.TestCase6.contactUsForm(TestCase6.java:30)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[Loaded URL: https://automationexercise.com/
+]]></system-out>
+  </testcase>
+  <testcase name="searchProductsAndVerifyCartAfterLogin" classname="com.automation.TestCase20" time="14.617">
+    <failure message="Verify that products are visible in cart expected [Blue Top] but found [ Blue Top]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Verify that products are visible in cart expected [Blue Top] but found [ Blue Top]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at com.automation.TestCase20.clickCartButtonAndVerifyThatProductsAreVisibleInCart(TestCase20.java:57)
+	at com.automation.TestCase20.searchProductsAndVerifyCartAfterLogin(TestCase20.java:43)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[Loaded URL: https://automationexercise.com/
+0.  Blue Top - contain: blue
+1. Sleeves Top and Short - Blue & Pink - contain: blue
+2. Blue Cotton Indie Mickey  Dress - contain: blue
+3. Colour Blocked Shirt – Sky Blue - contain: blue
+4. Grunt Blue Slim Fit Jeans - contain: blue
+5. Beautiful Peacock Blue Cotton Linen Saree - contain: blue
+6. GRAPHIC DESIGN MEN T SHIRT - BLUE - contain: blue
+]]></system-out>
+  </testcase>
+  <testcase name="loginUserWithCorrectEmailAndPassword" classname="com.automation.TestCase2" time="1.904">
+    <failure message="Unable to locate element: b&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception&#10;Build info: version: &apos;4.23.0&apos;, revision: &apos;4df0a231af&apos;&#10;System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;14.7&apos;, java.version: &apos;23&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Command: [5c2c9c7f-7ae0-48c3-9942-0bbafa8feeba, findElement {value=b, using=css selector}]&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 131.0.2, moz:accessibilityChecks: false, moz:buildID: 20241008210941, moz:debuggerAddress: 127.0.0.1:33907, moz:geckodriverVersion: 0.35.0, moz:headless: true, moz:platformVersion: 23.6.0, moz:processID: 27801, moz:profile: /var/folders/qk/lrxzqjc5227..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://127.0.0.1:33907/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}&#10;Session ID: 5c2c9c7f-7ae0-48c3-9942-0bbafa8feeba" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: b
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.7', java.version: '23'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [5c2c9c7f-7ae0-48c3-9942-0bbafa8feeba, findElement {value=b, using=css selector}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 131.0.2, moz:accessibilityChecks: false, moz:buildID: 20241008210941, moz:debuggerAddress: 127.0.0.1:33907, moz:geckodriverVersion: 0.35.0, moz:headless: true, moz:platformVersion: 23.6.0, moz:processID: 27801, moz:profile: /var/folders/qk/lrxzqjc5227..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://127.0.0.1:33907/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: 5c2c9c7f-7ae0-48c3-9942-0bbafa8feeba
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy20.getText(Unknown Source)
+	at com.automation.TestCase2.verifyThatLoggedInAsUsernameIsVisible(TestCase2.java:49)
+	at com.automation.TestCase2.loginUserWithCorrectEmailAndPassword(TestCase2.java:32)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[Loaded URL: https://automationexercise.com/
+]]></system-out>
+  </testcase>
+  <testcase name="viewCategoryProducts" classname="com.automation.TestCase18" time="1.75">
+    <failure message="Verify that category page is displayed and confirm text &apos;WOMEN - DRESS PRODUCTS&apos; expected [WOMEN - DRESS PRODUCTS] but found [WOMEN -  DRESS PRODUCTS]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Verify that category page is displayed and confirm text 'WOMEN - DRESS PRODUCTS' expected [WOMEN - DRESS PRODUCTS] but found [WOMEN -  DRESS PRODUCTS]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at com.automation.TestCase18.verifyThatCategoryPageIsDisplayedAndConfirmTextWomenDressProducts(TestCase18.java:47)
+	at com.automation.TestCase18.viewCategoryProducts(TestCase18.java:28)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[Loaded URL: https://automationexercise.com/
+]]></system-out>
+  </testcase>
+  <testcase name="verifyTestCasesPage" classname="com.automation.TestCase7" time="0.986">
+    <system-out><![CDATA[Loaded URL: https://automationexercise.com/
+]]></system-out>
+  </testcase>
+  <testcase name="registerUserWithExistingEmail" classname="com.automation.TestCase5" time="2.036">
+    <system-out><![CDATA[Loaded URL: https://automationexercise.com/
+]]></system-out>
+  </testcase>
+  <testcase name="registerUser" classname="com.automation.TestCase1" time="31.219">
+    <system-out><![CDATA[Loaded URL: https://automationexercise.com/
+]]></system-out>
+  </testcase>
+  <testcase name="loginUserWithIncorrectEmailAndPassword" classname="com.automation.TestCase3" time="1.81">
+    <system-out><![CDATA[Loaded URL: https://automationexercise.com/
+]]></system-out>
+  </testcase>
+  <testcase name="verifySubscriptionInHomePage" classname="com.automation.TestCase10" time="0.401">
+    <system-out><![CDATA[Loaded URL: https://automationexercise.com/
+]]></system-out>
+  </testcase>
+  <testcase name="addProductsInCart" classname="com.automation.TestCase12" time="7.361">
+    <system-out><![CDATA[Loaded URL: https://automationexercise.com/
+0. Prices = Total Prices | Rs. 500 = Rs. 500
+0. Quantity = 1 | true
+1. Prices = Total Prices | Rs. 400 = Rs. 400
+1. Quantity = 1 | true
+]]></system-out>
+  </testcase>
+  <testcase name="placeOrderLoginBeforeCheckout" classname="com.automation.TestCase16" time="1.458">
+    <failure message="Unable to locate element: b&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception&#10;Build info: version: &apos;4.23.0&apos;, revision: &apos;4df0a231af&apos;&#10;System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;14.7&apos;, java.version: &apos;23&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Command: [28ef1244-657c-4988-a7b4-7e1cbd1d7faa, findElement {value=b, using=css selector}]&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 131.0.2, moz:accessibilityChecks: false, moz:buildID: 20241008210941, moz:debuggerAddress: 127.0.0.1:2249, moz:geckodriverVersion: 0.35.0, moz:headless: true, moz:platformVersion: 23.6.0, moz:processID: 28045, moz:profile: /var/folders/qk/lrxzqjc5227..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://127.0.0.1:2249/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}&#10;Session ID: 28ef1244-657c-4988-a7b4-7e1cbd1d7faa" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: b
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.7', java.version: '23'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [28ef1244-657c-4988-a7b4-7e1cbd1d7faa, findElement {value=b, using=css selector}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 131.0.2, moz:accessibilityChecks: false, moz:buildID: 20241008210941, moz:debuggerAddress: 127.0.0.1:2249, moz:geckodriverVersion: 0.35.0, moz:headless: true, moz:platformVersion: 23.6.0, moz:processID: 28045, moz:profile: /var/folders/qk/lrxzqjc5227..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://127.0.0.1:2249/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: 28ef1244-657c-4988-a7b4-7e1cbd1d7faa
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy20.getText(Unknown Source)
+	at com.automation.TestCase16.verifyLoggedInAsUsernameAtTop(TestCase16.java:61)
+	at com.automation.TestCase16.placeOrderLoginBeforeCheckout(TestCase16.java:49)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[Loaded URL: https://automationexercise.com/
+]]></system-out>
+  </testcase>
+  <testcase name="searchProduct" classname="com.automation.TestCase9" time="5.153">
+    <system-out><![CDATA[Loaded URL: https://automationexercise.com/
+0. Blue Top - contain: blue
+1. Sleeves Top and Short - Blue & Pink - contain: blue
+2. Blue Cotton Indie Mickey  Dress - contain: blue
+3. Colour Blocked  Shirt – Sky Blue - contain: blue
+4. Grunt Blue Slim Fit Jeans - contain: blue
+5. Beautiful Peacock Blue Cotton Linen Saree - contain: blue
+6. GRAPHIC DESIGN MEN T SHIRT - BLUE - contain: blue
+]]></system-out>
+  </testcase>
+  <testcase name="placeOrderRegisterWhileCheckout" classname="com.automation.TestCase14" time="15.958">
+    <failure message="src\test\java\com\automation\resources\testData\PaymentDetails.json (No such file or directory)" type="java.io.FileNotFoundException"><![CDATA[java.io.FileNotFoundException: src\test\java\com\automation\resources\testData\PaymentDetails.json (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:159)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:112)
+	at java.base/java.io.FileReader.<init>(FileReader.java:60)
+	at com.automation.utils.JSONReader.paymentDetails(JSONReader.java:30)
+	at com.automation.pages.PaymentPage.fillPaymentDetails(PaymentPage.java:53)
+	at com.automation.TestCase14.verifySuccessMessageCongratulationsYourOrderHasBeenConfirmed(TestCase14.java:138)
+	at com.automation.TestCase14.placeOrderRegisterWhileCheckout(TestCase14.java:50)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[Loaded URL: https://automationexercise.com/
+]]></system-out>
+  </testcase>
+  <testcase name="verifyProductQuantityInCart" classname="com.automation.TestCase13" time="3.65">
+    <system-out><![CDATA[Loaded URL: https://automationexercise.com/
+]]></system-out>
+  </testcase>
+  <testcase name="verifySubscriptionInCartPage" classname="com.automation.TestCase11" time="1.322">
+    <system-out><![CDATA[Loaded URL: https://automationexercise.com/
+]]></system-out>
+  </testcase>
+  <testcase name="placeOrderRegisterBeforeCheckout" classname="com.automation.TestCase15" time="17.101">
+    <failure message="src\test\java\com\automation\resources\testData\PaymentDetails.json (No such file or directory)" type="java.io.FileNotFoundException"><![CDATA[java.io.FileNotFoundException: src\test\java\com\automation\resources\testData\PaymentDetails.json (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:159)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:112)
+	at java.base/java.io.FileReader.<init>(FileReader.java:60)
+	at com.automation.utils.JSONReader.paymentDetails(JSONReader.java:30)
+	at com.automation.pages.PaymentPage.fillPaymentDetails(PaymentPage.java:53)
+	at com.automation.TestCase14.verifySuccessMessageCongratulationsYourOrderHasBeenConfirmed(TestCase14.java:138)
+	at com.automation.TestCase15.placeOrderRegisterBeforeCheckout(TestCase15.java:46)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[Loaded URL: https://automationexercise.com/
+]]></system-out>
+  </testcase>
+  <testcase name="removeProductsFromCart" classname="com.automation.TestCase17" time="4.541">
+    <system-out><![CDATA[Loaded URL: https://automationexercise.com/
+]]></system-out>
+  </testcase>
+  <testcase name="verifyAllProductsAndProductDetailPage" classname="com.automation.TestCase8" time="4.462">
+    <system-out><![CDATA[Loaded URL: https://automationexercise.com/
+]]></system-out>
+  </testcase>
+</testsuite>

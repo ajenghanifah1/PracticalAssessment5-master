@@ -1,0 +1,1221 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 9 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Surefire_suite" class="navigator-link">
+              <span class="suite-name border-failed">Surefire suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Surefire_suite" class="navigator-link ">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Surefire_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Surefire_suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Surefire_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Surefire_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Surefire_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Surefire_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">20 methods, 9 failed,   11 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods failed suite-Surefire_suite"> (hide)</a> <!-- hide-methods failed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods failed suite-Surefire_suite"> (show)</a> <!-- show-methods failed suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Surefire_suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.automation.TestCase6" class="method navigator-link" hash-for-method="contactUsForm">contactUsForm</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.automation.TestCase2" class="method navigator-link" hash-for-method="loginUserWithCorrectEmailAndPassword">loginUserWithCorrectEmailAndPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.automation.TestCase4" class="method navigator-link" hash-for-method="logoutUser">logoutUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.automation.TestCase16" class="method navigator-link" hash-for-method="placeOrderLoginBeforeCheckout">placeOrderLoginBeforeCheckout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.automation.TestCase15" class="method navigator-link" hash-for-method="placeOrderRegisterBeforeCheckout">placeOrderRegisterBeforeCheckout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.automation.TestCase14" class="method navigator-link" hash-for-method="placeOrderRegisterWhileCheckout">placeOrderRegisterWhileCheckout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.automation.TestCase20" class="method navigator-link" hash-for-method="searchProductsAndVerifyCartAfterLogin">searchProductsAndVerifyCartAfterLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.automation.TestCase19" class="method navigator-link" hash-for-method="viewCartBrandProducts">viewCartBrandProducts</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.automation.TestCase18" class="method navigator-link" hash-for-method="viewCategoryProducts">viewCategoryProducts</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Surefire_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods passed suite-Surefire_suite"> (hide)</a> <!-- hide-methods passed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods passed suite-Surefire_suite"> (show)</a> <!-- show-methods passed suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Surefire_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.automation.TestCase12" class="method navigator-link" hash-for-method="addProductsInCart">addProductsInCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.automation.TestCase3" class="method navigator-link" hash-for-method="loginUserWithIncorrectEmailAndPassword">loginUserWithIncorrectEmailAndPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.automation.TestCase1" class="method navigator-link" hash-for-method="registerUser">registerUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.automation.TestCase5" class="method navigator-link" hash-for-method="registerUserWithExistingEmail">registerUserWithExistingEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.automation.TestCase17" class="method navigator-link" hash-for-method="removeProductsFromCart">removeProductsFromCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.automation.TestCase9" class="method navigator-link" hash-for-method="searchProduct">searchProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.automation.TestCase8" class="method navigator-link" hash-for-method="verifyAllProductsAndProductDetailPage">verifyAllProductsAndProductDetailPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.automation.TestCase13" class="method navigator-link" hash-for-method="verifyProductQuantityInCart">verifyProductQuantityInCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.automation.TestCase11" class="method navigator-link" hash-for-method="verifySubscriptionInCartPage">verifySubscriptionInCartPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.automation.TestCase10" class="method navigator-link" hash-for-method="verifySubscriptionInHomePage">verifySubscriptionInHomePage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.automation.TestCase7" class="method navigator-link" hash-for-method="verifyTestCasesPage">verifyTestCasesPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Surefire_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Surefire_suite" class="panel Surefire_suite">
+          <div class="suite-Surefire_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.automation.TestCase16</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="placeOrderLoginBeforeCheckout">
+                  </a> <!-- placeOrderLoginBeforeCheckout -->
+                  <span class="method-name">placeOrderLoginBeforeCheckout</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: b
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.23.0&apos;, revision: &apos;4df0a231af&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;14.7&apos;, java.version: &apos;23&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [28ef1244-657c-4988-a7b4-7e1cbd1d7faa, findElement {value=b, using=css selector}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 131.0.2, moz:accessibilityChecks: false, moz:buildID: 20241008210941, moz:debuggerAddress: 127.0.0.1:2249, moz:geckodriverVersion: 0.35.0, moz:headless: true, moz:platformVersion: 23.6.0, moz:processID: 28045, moz:profile: /var/folders/qk/lrxzqjc5227..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://127.0.0.1:2249/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: 28ef1244-657c-4988-a7b4-7e1cbd1d7faa
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy20.getText(Unknown Source)
+	at com.automation.TestCase16.verifyLoggedInAsUsernameAtTop(TestCase16.java:61)
+	at com.automation.TestCase16.placeOrderLoginBeforeCheckout(TestCase16.java:49)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Test Case 14: Place Order: Register while Checkout)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-failed -->
+          <div class="suite-Surefire_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.automation.TestCase4</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="logoutUser">
+                  </a> <!-- logoutUser -->
+                  <span class="method-name">logoutUser</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: b
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.23.0&apos;, revision: &apos;4df0a231af&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;14.7&apos;, java.version: &apos;23&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [7006affb-4fd0-4ba2-a9fb-791e66992e15, findElement {value=b, using=css selector}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 131.0.2, moz:accessibilityChecks: false, moz:buildID: 20241008210941, moz:debuggerAddress: 127.0.0.1:25526, moz:geckodriverVersion: 0.35.0, moz:headless: true, moz:platformVersion: 23.6.0, moz:processID: 27679, moz:profile: /var/folders/qk/lrxzqjc5227..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://127.0.0.1:25526/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: 7006affb-4fd0-4ba2-a9fb-791e66992e15
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy20.getText(Unknown Source)
+	at com.automation.TestCase2.verifyThatLoggedInAsUsernameIsVisible(TestCase2.java:49)
+	at com.automation.TestCase2.loginUserWithCorrectEmailAndPassword(TestCase2.java:32)
+	at com.automation.TestCase4.logoutUser(TestCase4.java:30)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Test Case 4: Logout User)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-failed -->
+          <div class="suite-Surefire_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.automation.TestCase14</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="placeOrderRegisterWhileCheckout">
+                  </a> <!-- placeOrderRegisterWhileCheckout -->
+                  <span class="method-name">placeOrderRegisterWhileCheckout</span>
+                  <div class="stack-trace">java.io.FileNotFoundException: src\test\java\com\automation\resources\testData\PaymentDetails.json (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:159)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:112)
+	at java.base/java.io.FileReader.&lt;init&gt;(FileReader.java:60)
+	at com.automation.utils.JSONReader.paymentDetails(JSONReader.java:30)
+	at com.automation.pages.PaymentPage.fillPaymentDetails(PaymentPage.java:53)
+	at com.automation.TestCase14.verifySuccessMessageCongratulationsYourOrderHasBeenConfirmed(TestCase14.java:138)
+	at com.automation.TestCase14.placeOrderRegisterWhileCheckout(TestCase14.java:50)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Test Case 14: Place Order: Register while Checkout)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-failed -->
+          <div class="suite-Surefire_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.automation.TestCase19</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="viewCartBrandProducts">
+                  </a> <!-- viewCartBrandProducts -->
+                  <span class="method-name">viewCartBrandProducts</span>
+                  <div class="stack-trace">java.lang.AssertionError: Verify that user is navigated to brand page expected [BRAND - POLO PRODUCTS] but found [BRAND -  POLO PRODUCTS]
+	at com.automation.TestCase19.verifyThatUserIsNavigatedToBrandPageAndBrandProductsAreDisplayed(TestCase19.java:51)
+	at com.automation.TestCase19.viewCartBrandProducts(TestCase19.java:32)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Test Case 19: View & Cart Brand Products)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-failed -->
+          <div class="suite-Surefire_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.automation.TestCase18</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="viewCategoryProducts">
+                  </a> <!-- viewCategoryProducts -->
+                  <span class="method-name">viewCategoryProducts</span>
+                  <div class="stack-trace">java.lang.AssertionError: Verify that category page is displayed and confirm text &apos;WOMEN - DRESS PRODUCTS&apos; expected [WOMEN - DRESS PRODUCTS] but found [WOMEN -  DRESS PRODUCTS]
+	at com.automation.TestCase18.verifyThatCategoryPageIsDisplayedAndConfirmTextWomenDressProducts(TestCase18.java:47)
+	at com.automation.TestCase18.viewCategoryProducts(TestCase18.java:28)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Test Case 18: View Category Products)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-failed -->
+          <div class="suite-Surefire_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.automation.TestCase2</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginUserWithCorrectEmailAndPassword">
+                  </a> <!-- loginUserWithCorrectEmailAndPassword -->
+                  <span class="method-name">loginUserWithCorrectEmailAndPassword</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: b
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.23.0&apos;, revision: &apos;4df0a231af&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;14.7&apos;, java.version: &apos;23&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [5c2c9c7f-7ae0-48c3-9942-0bbafa8feeba, findElement {value=b, using=css selector}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 131.0.2, moz:accessibilityChecks: false, moz:buildID: 20241008210941, moz:debuggerAddress: 127.0.0.1:33907, moz:geckodriverVersion: 0.35.0, moz:headless: true, moz:platformVersion: 23.6.0, moz:processID: 27801, moz:profile: /var/folders/qk/lrxzqjc5227..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://127.0.0.1:33907/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: 5c2c9c7f-7ae0-48c3-9942-0bbafa8feeba
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy20.getText(Unknown Source)
+	at com.automation.TestCase2.verifyThatLoggedInAsUsernameIsVisible(TestCase2.java:49)
+	at com.automation.TestCase2.loginUserWithCorrectEmailAndPassword(TestCase2.java:32)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Test Case 2: Login User with correct email and password)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-failed -->
+          <div class="suite-Surefire_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.automation.TestCase6</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="contactUsForm">
+                  </a> <!-- contactUsForm -->
+                  <span class="method-name">contactUsForm</span>
+                  <div class="stack-trace">org.openqa.selenium.InvalidArgumentException: File not found: /Users/ajeng.hanifah/Downloads/PracticalAssessment5-master\src\test\java\com\automation\resources\sample.txt
+Build info: version: &apos;4.23.0&apos;, revision: &apos;4df0a231af&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;14.7&apos;, java.version: &apos;23&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [fc6e3e30-c08f-40f9-a7dc-5f999ca83643, sendKeysToElement {id=aef8bab1-a89c-41b2-93c4-216e87b6e7b0, value=[Ljava.lang.CharSequence;@773c0293}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 131.0.2, moz:accessibilityChecks: false, moz:buildID: 20241008210941, moz:debuggerAddress: 127.0.0.1:46822, moz:geckodriverVersion: 0.35.0, moz:headless: true, moz:platformVersion: 23.6.0, moz:processID: 27741, moz:profile: /var/folders/qk/lrxzqjc5227..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://127.0.0.1:46822/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Element: [[FirefoxDriver: firefox on mac (fc6e3e30-c08f-40f9-a7dc-5f999ca83643)] -&gt; name: upload_file]
+Session ID: fc6e3e30-c08f-40f9-a7dc-5f999ca83643
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy20.sendKeys(Unknown Source)
+	at com.automation.pages.ContactUsPage.fillForm(ContactUsPage.java:56)
+	at com.automation.TestCase6.verifySuccessMessageSuccessYourDetailsHaveBeenSubmittedSuccessfullyIsVisible(TestCase6.java:47)
+	at com.automation.TestCase6.contactUsForm(TestCase6.java:30)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Test Case 6: Contact Us Form)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-failed -->
+          <div class="suite-Surefire_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.automation.TestCase15</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="placeOrderRegisterBeforeCheckout">
+                  </a> <!-- placeOrderRegisterBeforeCheckout -->
+                  <span class="method-name">placeOrderRegisterBeforeCheckout</span>
+                  <div class="stack-trace">java.io.FileNotFoundException: src\test\java\com\automation\resources\testData\PaymentDetails.json (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:159)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:112)
+	at java.base/java.io.FileReader.&lt;init&gt;(FileReader.java:60)
+	at com.automation.utils.JSONReader.paymentDetails(JSONReader.java:30)
+	at com.automation.pages.PaymentPage.fillPaymentDetails(PaymentPage.java:53)
+	at com.automation.TestCase14.verifySuccessMessageCongratulationsYourOrderHasBeenConfirmed(TestCase14.java:138)
+	at com.automation.TestCase15.placeOrderRegisterBeforeCheckout(TestCase15.java:46)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Test Case 15: Place Order: Register before Checkout)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-failed -->
+          <div class="suite-Surefire_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.automation.TestCase20</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchProductsAndVerifyCartAfterLogin">
+                  </a> <!-- searchProductsAndVerifyCartAfterLogin -->
+                  <span class="method-name">searchProductsAndVerifyCartAfterLogin</span>
+                  <div class="stack-trace">java.lang.AssertionError: Verify that products are visible in cart expected [Blue Top] but found [ Blue Top]
+	at com.automation.TestCase20.clickCartButtonAndVerifyThatProductsAreVisibleInCart(TestCase20.java:57)
+	at com.automation.TestCase20.searchProductsAndVerifyCartAfterLogin(TestCase20.java:43)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Test Case 20: Search Products and Verify Cart After Login)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-failed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.automation.TestCase7</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTestCasesPage">
+                  </a> <!-- verifyTestCasesPage -->
+                  <span class="method-name">verifyTestCasesPage</span>
+                  <em>
+(Test Case 7: Verify Test Cases Page)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.automation.TestCase1</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="registerUser">
+                  </a> <!-- registerUser -->
+                  <span class="method-name">registerUser</span>
+                  <em>
+(Test Case 1: Register User)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.automation.TestCase3</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginUserWithIncorrectEmailAndPassword">
+                  </a> <!-- loginUserWithIncorrectEmailAndPassword -->
+                  <span class="method-name">loginUserWithIncorrectEmailAndPassword</span>
+                  <em>
+(Test Case 3: Login User with incorrect email and password)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.automation.TestCase12</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addProductsInCart">
+                  </a> <!-- addProductsInCart -->
+                  <span class="method-name">addProductsInCart</span>
+                  <em>
+(Test Case 12: Add Products in Cart)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.automation.TestCase13</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductQuantityInCart">
+                  </a> <!-- verifyProductQuantityInCart -->
+                  <span class="method-name">verifyProductQuantityInCart</span>
+                  <em>
+(Test Case 13: Verify Product quantity in Cart)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.automation.TestCase9</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchProduct">
+                  </a> <!-- searchProduct -->
+                  <span class="method-name">searchProduct</span>
+                  <em>
+(Test Case 9: Search Product)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.automation.TestCase8</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAllProductsAndProductDetailPage">
+                  </a> <!-- verifyAllProductsAndProductDetailPage -->
+                  <span class="method-name">verifyAllProductsAndProductDetailPage</span>
+                  <em>
+(Test Case 8: Verify All Products and product detail page)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.automation.TestCase10</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySubscriptionInHomePage">
+                  </a> <!-- verifySubscriptionInHomePage -->
+                  <span class="method-name">verifySubscriptionInHomePage</span>
+                  <em>
+(Test Case 10: Verify Subscription in home page)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.automation.TestCase17</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="removeProductsFromCart">
+                  </a> <!-- removeProductsFromCart -->
+                  <span class="method-name">removeProductsFromCart</span>
+                  <em>
+(Test Case 17: Remove Products From Cart)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.automation.TestCase11</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySubscriptionInCartPage">
+                  </a> <!-- verifySubscriptionInCartPage -->
+                  <span class="method-name">verifySubscriptionInCartPage</span>
+                  <em>
+(Test Case 11: Verify Subscription in Cart page)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.automation.TestCase5</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="registerUserWithExistingEmail">
+                  </a> <!-- registerUserWithExistingEmail -->
+                  <span class="method-name">registerUserWithExistingEmail</span>
+                  <em>
+(Test Case 5: Register User with existing email)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+        </div> <!-- panel Surefire_suite -->
+        <div panel-name="test-xml-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Surefire suite&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Surefire test&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.automation.TestCase4&quot;/&gt;
+      &lt;class name=&quot;com.automation.TestCase19&quot;/&gt;
+      &lt;class name=&quot;com.automation.TestCase6&quot;/&gt;
+      &lt;class name=&quot;com.automation.TestCase20&quot;/&gt;
+      &lt;class name=&quot;com.automation.TestCase2&quot;/&gt;
+      &lt;class name=&quot;com.automation.TestCase18&quot;/&gt;
+      &lt;class name=&quot;com.automation.TestCase7&quot;/&gt;
+      &lt;class name=&quot;com.automation.TestCase5&quot;/&gt;
+      &lt;class name=&quot;com.automation.TestCase1&quot;/&gt;
+      &lt;class name=&quot;com.automation.TestCase3&quot;/&gt;
+      &lt;class name=&quot;com.automation.TestCase10&quot;/&gt;
+      &lt;class name=&quot;com.automation.TestCase12&quot;/&gt;
+      &lt;class name=&quot;com.automation.TestCase16&quot;/&gt;
+      &lt;class name=&quot;com.automation.TestCase9&quot;/&gt;
+      &lt;class name=&quot;com.automation.TestCase14&quot;/&gt;
+      &lt;class name=&quot;com.automation.BaseTest&quot;/&gt;
+      &lt;class name=&quot;com.automation.TestCase13&quot;/&gt;
+      &lt;class name=&quot;com.automation.TestCase11&quot;/&gt;
+      &lt;class name=&quot;com.automation.pages.TestCasesPage&quot;/&gt;
+      &lt;class name=&quot;com.automation.TestCase15&quot;/&gt;
+      &lt;class name=&quot;com.automation.TestCase17&quot;/&gt;
+      &lt;class name=&quot;com.automation.TestCase8&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Surefire test --&gt;
+&lt;/suite&gt; &lt;!-- Surefire suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Surefire test (22 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Surefire_suite');
+function tableData_Surefire_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(20);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'registerUser')
+data.setCell(0, 2, 'com.automation.TestCase1')
+data.setCell(0, 3, 31217);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'placeOrderRegisterBeforeCheckout')
+data.setCell(1, 2, 'com.automation.TestCase15')
+data.setCell(1, 3, 17099);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'placeOrderRegisterWhileCheckout')
+data.setCell(2, 2, 'com.automation.TestCase14')
+data.setCell(2, 3, 15957);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'searchProductsAndVerifyCartAfterLogin')
+data.setCell(3, 2, 'com.automation.TestCase20')
+data.setCell(3, 3, 14618);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'viewCartBrandProducts')
+data.setCell(4, 2, 'com.automation.TestCase19')
+data.setCell(4, 3, 7674);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'addProductsInCart')
+data.setCell(5, 2, 'com.automation.TestCase12')
+data.setCell(5, 3, 7361);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'searchProduct')
+data.setCell(6, 2, 'com.automation.TestCase9')
+data.setCell(6, 3, 5153);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'removeProductsFromCart')
+data.setCell(7, 2, 'com.automation.TestCase17')
+data.setCell(7, 3, 4542);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verifyAllProductsAndProductDetailPage')
+data.setCell(8, 2, 'com.automation.TestCase8')
+data.setCell(8, 3, 4463);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verifyProductQuantityInCart')
+data.setCell(9, 2, 'com.automation.TestCase13')
+data.setCell(9, 3, 3648);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'logoutUser')
+data.setCell(10, 2, 'com.automation.TestCase4')
+data.setCell(10, 3, 2706);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'registerUserWithExistingEmail')
+data.setCell(11, 2, 'com.automation.TestCase5')
+data.setCell(11, 3, 2038);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'loginUserWithCorrectEmailAndPassword')
+data.setCell(12, 2, 'com.automation.TestCase2')
+data.setCell(12, 3, 1903);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'loginUserWithIncorrectEmailAndPassword')
+data.setCell(13, 2, 'com.automation.TestCase3')
+data.setCell(13, 3, 1811);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'viewCategoryProducts')
+data.setCell(14, 2, 'com.automation.TestCase18')
+data.setCell(14, 3, 1752);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'contactUsForm')
+data.setCell(15, 2, 'com.automation.TestCase6')
+data.setCell(15, 3, 1625);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'placeOrderLoginBeforeCheckout')
+data.setCell(16, 2, 'com.automation.TestCase16')
+data.setCell(16, 3, 1458);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'verifySubscriptionInCartPage')
+data.setCell(17, 2, 'com.automation.TestCase11')
+data.setCell(17, 3, 1322);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'verifyTestCasesPage')
+data.setCell(18, 2, 'com.automation.TestCase7')
+data.setCell(18, 3, 985);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'verifySubscriptionInHomePage')
+data.setCell(19, 2, 'com.automation.TestCase10')
+data.setCell(19, 3, 402);
+window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-Surefire_suite">
+              </div> <!-- times-div-Surefire_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automation.TestCase4</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">logoutUser</span>
+                <span class="method-start">6834 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">9553 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automation.TestCase19</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">9983 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">viewCartBrandProducts</span>
+                <span class="method-start">20035 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">27713 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automation.TestCase6</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">28117 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">contactUsForm</span>
+                <span class="method-start">34466 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">36093 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automation.TestCase20</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">36497 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">searchProductsAndVerifyCartAfterLogin</span>
+                <span class="method-start">44118 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">58738 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automation.TestCase2</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">59151 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">loginUserWithCorrectEmailAndPassword</span>
+                <span class="method-start">64738 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">66644 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automation.TestCase18</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">67069 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">viewCategoryProducts</span>
+                <span class="method-start">73662 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">75416 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automation.TestCase7</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">75831 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyTestCasesPage</span>
+                <span class="method-start">80810 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">81796 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automation.TestCase5</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">82198 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">registerUserWithExistingEmail</span>
+                <span class="method-start">89333 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">91371 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automation.TestCase1</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">91818 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">registerUser</span>
+                <span class="method-start">112401 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">143624 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automation.TestCase3</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">144071 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginUserWithIncorrectEmailAndPassword</span>
+                <span class="method-start">152183 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">153995 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automation.TestCase10</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">154448 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifySubscriptionInHomePage</span>
+                <span class="method-start">165196 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">165599 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automation.TestCase12</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">166058 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addProductsInCart</span>
+                <span class="method-start">175194 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">182555 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automation.TestCase16</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">182959 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">placeOrderLoginBeforeCheckout</span>
+                <span class="method-start">190076 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">191537 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automation.TestCase9</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">191969 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">searchProduct</span>
+                <span class="method-start">197726 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">202879 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automation.TestCase14</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">203283 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">placeOrderRegisterWhileCheckout</span>
+                <span class="method-start">209091 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">225050 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automation.TestCase13</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">225476 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyProductQuantityInCart</span>
+                <span class="method-start">231011 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">234661 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automation.TestCase11</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">235075 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifySubscriptionInCartPage</span>
+                <span class="method-start">239771 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">241094 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automation.TestCase15</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">241503 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">placeOrderRegisterBeforeCheckout</span>
+                <span class="method-start">246303 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">263405 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automation.TestCase17</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">263826 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">removeProductsFromCart</span>
+                <span class="method-start">270252 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">274795 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automation.TestCase8</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">275217 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyAllProductsAndProductDetailPage</span>
+                <span class="method-start">280043 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">284507 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

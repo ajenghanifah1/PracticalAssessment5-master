@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="5" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="com.automation.TestCase16">
+        <methods>
+          <include name="tearDown"/>
+          <include name="placeOrderLoginBeforeCheckout"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.automation.TestCase16 -->
+      <class name="com.automation.TestCase4">
+        <methods>
+          <include name="tearDown"/>
+          <include name="logoutUser"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.automation.TestCase4 -->
+      <class name="com.automation.TestCase14">
+        <methods>
+          <include name="placeOrderRegisterWhileCheckout"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.automation.TestCase14 -->
+      <class name="com.automation.TestCase19">
+        <methods>
+          <include name="tearDown"/>
+          <include name="viewCartBrandProducts"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.automation.TestCase19 -->
+      <class name="com.automation.TestCase18">
+        <methods>
+          <include name="tearDown"/>
+          <include name="viewCategoryProducts"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.automation.TestCase18 -->
+      <class name="com.automation.TestCase2">
+        <methods>
+          <include name="loginUserWithCorrectEmailAndPassword"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.automation.TestCase2 -->
+      <class name="com.automation.TestCase6">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="contactUsForm"/>
+        </methods>
+      </class> <!-- com.automation.TestCase6 -->
+      <class name="com.automation.TestCase15">
+        <methods>
+          <include name="placeOrderRegisterBeforeCheckout"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.automation.TestCase15 -->
+      <class name="com.automation.TestCase20">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="searchProductsAndVerifyCartAfterLogin"/>
+        </methods>
+      </class> <!-- com.automation.TestCase20 -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

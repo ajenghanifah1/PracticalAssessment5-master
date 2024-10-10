@@ -1,0 +1,823 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="20" passed="11" failed="9" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-10T13:16:58 WIB" name="Surefire suite" finished-at="2024-10-10T13:21:43 WIB" duration-ms="284921">
+    <groups>
+    </groups>
+    <test started-at="2024-10-10T13:16:58 WIB" name="Surefire test" finished-at="2024-10-10T13:21:43 WIB" duration-ms="284921">
+      <class name="com.automation.TestCase14">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.automation.TestCase14@4b45a2f5]" started-at="2024-10-10T13:20:22 WIB" name="setUp" finished-at="2024-10-10T13:20:27 WIB" duration-ms="5808" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="placeOrderRegisterWhileCheckout()[pri:0, instance:com.automation.TestCase14@4b45a2f5]" started-at="2024-10-10T13:20:27 WIB" name="placeOrderRegisterWhileCheckout" description="Test Case 14: Place Order: Register while Checkout" finished-at="2024-10-10T13:20:43 WIB" duration-ms="15957" status="FAIL">
+          <exception class="java.io.FileNotFoundException">
+            <message>
+              <![CDATA[src\test\java\com\automation\resources\testData\PaymentDetails.json (No such file or directory)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.io.FileNotFoundException: src\test\java\com\automation\resources\testData\PaymentDetails.json (No such file or directory)
+at java.base/java.io.FileInputStream.open0(Native Method)
+at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+at java.base/java.io.FileInputStream.<init>(FileInputStream.java:159)
+at java.base/java.io.FileInputStream.<init>(FileInputStream.java:112)
+at java.base/java.io.FileReader.<init>(FileReader.java:60)
+at com.automation.utils.JSONReader.paymentDetails(JSONReader.java:30)
+at com.automation.pages.PaymentPage.fillPaymentDetails(PaymentPage.java:53)
+at com.automation.TestCase14.verifySuccessMessageCongratulationsYourOrderHasBeenConfirmed(TestCase14.java:138)
+at com.automation.TestCase14.placeOrderRegisterWhileCheckout(TestCase14.java:50)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.io.FileNotFoundException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- placeOrderRegisterWhileCheckout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.TestCase14@4b45a2f5]" started-at="2024-10-10T13:20:43 WIB" name="tearDown" finished-at="2024-10-10T13:20:44 WIB" duration-ms="425" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.automation.TestCase14 -->
+      <class name="com.automation.TestCase13">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.automation.TestCase13@e350b40]" started-at="2024-10-10T13:20:44 WIB" name="setUp" finished-at="2024-10-10T13:20:49 WIB" duration-ms="5534" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyProductQuantityInCart()[pri:0, instance:com.automation.TestCase13@e350b40]" started-at="2024-10-10T13:20:49 WIB" name="verifyProductQuantityInCart" description="Test Case 13: Verify Product quantity in Cart" finished-at="2024-10-10T13:20:53 WIB" duration-ms="3648" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductQuantityInCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.TestCase13@e350b40]" started-at="2024-10-10T13:20:53 WIB" name="tearDown" finished-at="2024-10-10T13:20:53 WIB" duration-ms="412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.automation.TestCase13 -->
+      <class name="com.automation.TestCase12">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.automation.TestCase12@4686afc2]" started-at="2024-10-10T13:19:44 WIB" name="setUp" finished-at="2024-10-10T13:19:54 WIB" duration-ms="9135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="addProductsInCart()[pri:0, instance:com.automation.TestCase12@4686afc2]" started-at="2024-10-10T13:19:54 WIB" name="addProductsInCart" description="Test Case 12: Add Products in Cart" finished-at="2024-10-10T13:20:01 WIB" duration-ms="7361" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProductsInCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.TestCase12@4686afc2]" started-at="2024-10-10T13:20:01 WIB" name="tearDown" finished-at="2024-10-10T13:20:01 WIB" duration-ms="403" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.automation.TestCase12 -->
+      <class name="com.automation.TestCase11">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.automation.TestCase11@41a0aa7d]" started-at="2024-10-10T13:20:53 WIB" name="setUp" finished-at="2024-10-10T13:20:58 WIB" duration-ms="4695" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySubscriptionInCartPage()[pri:0, instance:com.automation.TestCase11@41a0aa7d]" started-at="2024-10-10T13:20:58 WIB" name="verifySubscriptionInCartPage" description="Test Case 11: Verify Subscription in Cart page" finished-at="2024-10-10T13:20:59 WIB" duration-ms="1322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySubscriptionInCartPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.TestCase11@41a0aa7d]" started-at="2024-10-10T13:20:59 WIB" name="tearDown" finished-at="2024-10-10T13:21:00 WIB" duration-ms="408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.automation.TestCase11 -->
+      <class name="com.automation.TestCase10">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.automation.TestCase10@229c6181]" started-at="2024-10-10T13:19:33 WIB" name="setUp" finished-at="2024-10-10T13:19:44 WIB" duration-ms="10745" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySubscriptionInHomePage()[pri:0, instance:com.automation.TestCase10@229c6181]" started-at="2024-10-10T13:19:44 WIB" name="verifySubscriptionInHomePage" description="Test Case 10: Verify Subscription in home page" finished-at="2024-10-10T13:19:44 WIB" duration-ms="402" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySubscriptionInHomePage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.TestCase10@229c6181]" started-at="2024-10-10T13:19:44 WIB" name="tearDown" finished-at="2024-10-10T13:19:44 WIB" duration-ms="458" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.automation.TestCase10 -->
+      <class name="com.automation.TestCase20">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.automation.TestCase20@a38c7fe]" started-at="2024-10-10T13:17:35 WIB" name="setUp" finished-at="2024-10-10T13:17:42 WIB" duration-ms="7603" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="searchProductsAndVerifyCartAfterLogin()[pri:0, instance:com.automation.TestCase20@a38c7fe]" started-at="2024-10-10T13:17:43 WIB" name="searchProductsAndVerifyCartAfterLogin" description="Test Case 20: Search Products and Verify Cart After Login" finished-at="2024-10-10T13:17:57 WIB" duration-ms="14618" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Verify that products are visible in cart expected [Blue Top] but found [ Blue Top]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Verify that products are visible in cart expected [Blue Top] but found [ Blue Top]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at com.automation.TestCase20.clickCartButtonAndVerifyThatProductsAreVisibleInCart(TestCase20.java:57)
+at com.automation.TestCase20.searchProductsAndVerifyCartAfterLogin(TestCase20.java:43)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProductsAndVerifyCartAfterLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.TestCase20@a38c7fe]" started-at="2024-10-10T13:17:57 WIB" name="tearDown" finished-at="2024-10-10T13:17:58 WIB" duration-ms="412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.automation.TestCase20 -->
+      <class name="com.automation.TestCase8">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.automation.TestCase8@45099dd3]" started-at="2024-10-10T13:21:34 WIB" name="setUp" finished-at="2024-10-10T13:21:38 WIB" duration-ms="4824" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyAllProductsAndProductDetailPage()[pri:0, instance:com.automation.TestCase8@45099dd3]" started-at="2024-10-10T13:21:38 WIB" name="verifyAllProductsAndProductDetailPage" description="Test Case 8: Verify All Products and product detail page" finished-at="2024-10-10T13:21:43 WIB" duration-ms="4463" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAllProductsAndProductDetailPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.TestCase8@45099dd3]" started-at="2024-10-10T13:21:43 WIB" name="tearDown" finished-at="2024-10-10T13:21:43 WIB" duration-ms="399" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.automation.TestCase8 -->
+      <class name="com.automation.TestCase9">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.automation.TestCase9@38cee291]" started-at="2024-10-10T13:20:10 WIB" name="setUp" finished-at="2024-10-10T13:20:16 WIB" duration-ms="5755" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="searchProduct()[pri:0, instance:com.automation.TestCase9@38cee291]" started-at="2024-10-10T13:20:16 WIB" name="searchProduct" description="Test Case 9: Search Product" finished-at="2024-10-10T13:20:21 WIB" duration-ms="5153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.TestCase9@38cee291]" started-at="2024-10-10T13:20:21 WIB" name="tearDown" finished-at="2024-10-10T13:20:22 WIB" duration-ms="403" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.automation.TestCase9 -->
+      <class name="com.automation.TestCase4">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.automation.TestCase4@32502377]" started-at="2024-10-10T13:16:58 WIB" name="setUp" finished-at="2024-10-10T13:17:05 WIB" duration-ms="6787" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="logoutUser()[pri:0, instance:com.automation.TestCase4@32502377]" started-at="2024-10-10T13:17:05 WIB" name="logoutUser" description="Test Case 4: Logout User" finished-at="2024-10-10T13:17:08 WIB" duration-ms="2706" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: b
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.7', java.version: '23'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [7006affb-4fd0-4ba2-a9fb-791e66992e15, findElement {value=b, using=css selector}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 131.0.2, moz:accessibilityChecks: false, moz:buildID: 20241008210941, moz:debuggerAddress: 127.0.0.1:25526, moz:geckodriverVersion: 0.35.0, moz:headless: true, moz:platformVersion: 23.6.0, moz:processID: 27679, moz:profile: /var/folders/qk/lrxzqjc5227..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://127.0.0.1:25526/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: 7006affb-4fd0-4ba2-a9fb-791e66992e15]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: b
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.7', java.version: '23'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [7006affb-4fd0-4ba2-a9fb-791e66992e15, findElement {value=b, using=css selector}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 131.0.2, moz:accessibilityChecks: false, moz:buildID: 20241008210941, moz:debuggerAddress: 127.0.0.1:25526, moz:geckodriverVersion: 0.35.0, moz:headless: true, moz:platformVersion: 23.6.0, moz:processID: 27679, moz:profile: /var/folders/qk/lrxzqjc5227..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://127.0.0.1:25526/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: 7006affb-4fd0-4ba2-a9fb-791e66992e15
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy20.getText(Unknown Source)
+at com.automation.TestCase2.verifyThatLoggedInAsUsernameIsVisible(TestCase2.java:49)
+at com.automation.TestCase2.loginUserWithCorrectEmailAndPassword(TestCase2.java:32)
+at com.automation.TestCase4.logoutUser(TestCase4.java:30)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutUser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.TestCase4@32502377]" started-at="2024-10-10T13:17:08 WIB" name="tearDown" finished-at="2024-10-10T13:17:08 WIB" duration-ms="428" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.automation.TestCase4 -->
+      <class name="com.automation.TestCase5">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.automation.TestCase5@6221a451]" started-at="2024-10-10T13:18:21 WIB" name="setUp" finished-at="2024-10-10T13:18:28 WIB" duration-ms="7134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="registerUserWithExistingEmail()[pri:0, instance:com.automation.TestCase5@6221a451]" started-at="2024-10-10T13:18:28 WIB" name="registerUserWithExistingEmail" description="Test Case 5: Register User with existing email" finished-at="2024-10-10T13:18:30 WIB" duration-ms="2038" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerUserWithExistingEmail -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.TestCase5@6221a451]" started-at="2024-10-10T13:18:30 WIB" name="tearDown" finished-at="2024-10-10T13:18:30 WIB" duration-ms="446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.automation.TestCase5 -->
+      <class name="com.automation.TestCase6">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.automation.TestCase6@4d5650ae]" started-at="2024-10-10T13:17:27 WIB" name="setUp" finished-at="2024-10-10T13:17:33 WIB" duration-ms="6346" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="contactUsForm()[pri:0, instance:com.automation.TestCase6@4d5650ae]" started-at="2024-10-10T13:17:33 WIB" name="contactUsForm" description="Test Case 6: Contact Us Form" finished-at="2024-10-10T13:17:34 WIB" duration-ms="1625" status="FAIL">
+          <exception class="org.openqa.selenium.InvalidArgumentException">
+            <message>
+              <![CDATA[File not found: /Users/ajeng.hanifah/Downloads/PracticalAssessment5-master\src\test\java\com\automation\resources\sample.txt
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.7', java.version: '23'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [fc6e3e30-c08f-40f9-a7dc-5f999ca83643, sendKeysToElement {id=aef8bab1-a89c-41b2-93c4-216e87b6e7b0, value=[Ljava.lang.CharSequence;@773c0293}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 131.0.2, moz:accessibilityChecks: false, moz:buildID: 20241008210941, moz:debuggerAddress: 127.0.0.1:46822, moz:geckodriverVersion: 0.35.0, moz:headless: true, moz:platformVersion: 23.6.0, moz:processID: 27741, moz:profile: /var/folders/qk/lrxzqjc5227..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://127.0.0.1:46822/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Element: [[FirefoxDriver: firefox on mac (fc6e3e30-c08f-40f9-a7dc-5f999ca83643)] -> name: upload_file]
+Session ID: fc6e3e30-c08f-40f9-a7dc-5f999ca83643]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.InvalidArgumentException: File not found: /Users/ajeng.hanifah/Downloads/PracticalAssessment5-master\src\test\java\com\automation\resources\sample.txt
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.7', java.version: '23'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [fc6e3e30-c08f-40f9-a7dc-5f999ca83643, sendKeysToElement {id=aef8bab1-a89c-41b2-93c4-216e87b6e7b0, value=[Ljava.lang.CharSequence;@773c0293}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 131.0.2, moz:accessibilityChecks: false, moz:buildID: 20241008210941, moz:debuggerAddress: 127.0.0.1:46822, moz:geckodriverVersion: 0.35.0, moz:headless: true, moz:platformVersion: 23.6.0, moz:processID: 27741, moz:profile: /var/folders/qk/lrxzqjc5227..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://127.0.0.1:46822/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Element: [[FirefoxDriver: firefox on mac (fc6e3e30-c08f-40f9-a7dc-5f999ca83643)] -> name: upload_file]
+Session ID: fc6e3e30-c08f-40f9-a7dc-5f999ca83643
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy20.sendKeys(Unknown Source)
+at com.automation.pages.ContactUsPage.fillForm(ContactUsPage.java:56)
+at com.automation.TestCase6.verifySuccessMessageSuccessYourDetailsHaveBeenSubmittedSuccessfullyIsVisible(TestCase6.java:47)
+at com.automation.TestCase6.contactUsForm(TestCase6.java:30)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.InvalidArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactUsForm -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.TestCase6@4d5650ae]" started-at="2024-10-10T13:17:34 WIB" name="tearDown" finished-at="2024-10-10T13:17:35 WIB" duration-ms="403" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.automation.TestCase6 -->
+      <class name="com.automation.TestCase7">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.automation.TestCase7@2e6a8155]" started-at="2024-10-10T13:18:14 WIB" name="setUp" finished-at="2024-10-10T13:18:19 WIB" duration-ms="4978" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyTestCasesPage()[pri:0, instance:com.automation.TestCase7@2e6a8155]" started-at="2024-10-10T13:18:19 WIB" name="verifyTestCasesPage" description="Test Case 7: Verify Test Cases Page" finished-at="2024-10-10T13:18:20 WIB" duration-ms="985" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTestCasesPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.TestCase7@2e6a8155]" started-at="2024-10-10T13:18:20 WIB" name="tearDown" finished-at="2024-10-10T13:18:21 WIB" duration-ms="401" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.automation.TestCase7 -->
+      <class name="com.automation.TestCase1">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.automation.TestCase1@65c7a252]" started-at="2024-10-10T13:18:30 WIB" name="setUp" finished-at="2024-10-10T13:18:51 WIB" duration-ms="20580" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="registerUser()[pri:0, instance:com.automation.TestCase1@65c7a252]" started-at="2024-10-10T13:18:51 WIB" name="registerUser" description="Test Case 1: Register User" finished-at="2024-10-10T13:19:22 WIB" duration-ms="31217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerUser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.TestCase1@65c7a252]" started-at="2024-10-10T13:19:22 WIB" name="tearDown" finished-at="2024-10-10T13:19:22 WIB" duration-ms="446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.automation.TestCase1 -->
+      <class name="com.automation.TestCase2">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.automation.TestCase2@6fdbe764]" started-at="2024-10-10T13:17:58 WIB" name="setUp" finished-at="2024-10-10T13:18:03 WIB" duration-ms="5584" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginUserWithCorrectEmailAndPassword()[pri:0, instance:com.automation.TestCase2@6fdbe764]" started-at="2024-10-10T13:18:03 WIB" name="loginUserWithCorrectEmailAndPassword" description="Test Case 2: Login User with correct email and password" finished-at="2024-10-10T13:18:05 WIB" duration-ms="1903" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: b
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.7', java.version: '23'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [5c2c9c7f-7ae0-48c3-9942-0bbafa8feeba, findElement {value=b, using=css selector}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 131.0.2, moz:accessibilityChecks: false, moz:buildID: 20241008210941, moz:debuggerAddress: 127.0.0.1:33907, moz:geckodriverVersion: 0.35.0, moz:headless: true, moz:platformVersion: 23.6.0, moz:processID: 27801, moz:profile: /var/folders/qk/lrxzqjc5227..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://127.0.0.1:33907/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: 5c2c9c7f-7ae0-48c3-9942-0bbafa8feeba]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: b
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.7', java.version: '23'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [5c2c9c7f-7ae0-48c3-9942-0bbafa8feeba, findElement {value=b, using=css selector}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 131.0.2, moz:accessibilityChecks: false, moz:buildID: 20241008210941, moz:debuggerAddress: 127.0.0.1:33907, moz:geckodriverVersion: 0.35.0, moz:headless: true, moz:platformVersion: 23.6.0, moz:processID: 27801, moz:profile: /var/folders/qk/lrxzqjc5227..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://127.0.0.1:33907/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: 5c2c9c7f-7ae0-48c3-9942-0bbafa8feeba
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy20.getText(Unknown Source)
+at com.automation.TestCase2.verifyThatLoggedInAsUsernameIsVisible(TestCase2.java:49)
+at com.automation.TestCase2.loginUserWithCorrectEmailAndPassword(TestCase2.java:32)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginUserWithCorrectEmailAndPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.TestCase2@6fdbe764]" started-at="2024-10-10T13:18:05 WIB" name="tearDown" finished-at="2024-10-10T13:18:05 WIB" duration-ms="424" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.automation.TestCase2 -->
+      <class name="com.automation.TestCase19">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.automation.TestCase19@70e9c95d]" started-at="2024-10-10T13:17:08 WIB" name="setUp" finished-at="2024-10-10T13:17:18 WIB" duration-ms="10050" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="viewCartBrandProducts()[pri:0, instance:com.automation.TestCase19@70e9c95d]" started-at="2024-10-10T13:17:18 WIB" name="viewCartBrandProducts" description="Test Case 19: View &amp; Cart Brand Products" finished-at="2024-10-10T13:17:26 WIB" duration-ms="7674" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Verify that user is navigated to brand page expected [BRAND - POLO PRODUCTS] but found [BRAND -  POLO PRODUCTS]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Verify that user is navigated to brand page expected [BRAND - POLO PRODUCTS] but found [BRAND -  POLO PRODUCTS]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at com.automation.TestCase19.verifyThatUserIsNavigatedToBrandPageAndBrandProductsAreDisplayed(TestCase19.java:51)
+at com.automation.TestCase19.viewCartBrandProducts(TestCase19.java:32)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewCartBrandProducts -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.TestCase19@70e9c95d]" started-at="2024-10-10T13:17:26 WIB" name="tearDown" finished-at="2024-10-10T13:17:27 WIB" duration-ms="404" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.automation.TestCase19 -->
+      <class name="com.automation.TestCase3">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.automation.TestCase3@4d154ccd]" started-at="2024-10-10T13:19:22 WIB" name="setUp" finished-at="2024-10-10T13:19:31 WIB" duration-ms="8110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginUserWithIncorrectEmailAndPassword()[pri:0, instance:com.automation.TestCase3@4d154ccd]" started-at="2024-10-10T13:19:31 WIB" name="loginUserWithIncorrectEmailAndPassword" description="Test Case 3: Login User with incorrect email and password" finished-at="2024-10-10T13:19:32 WIB" duration-ms="1811" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginUserWithIncorrectEmailAndPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.TestCase3@4d154ccd]" started-at="2024-10-10T13:19:32 WIB" name="tearDown" finished-at="2024-10-10T13:19:33 WIB" duration-ms="452" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.automation.TestCase3 -->
+      <class name="com.automation.TestCase18">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.automation.TestCase18@51c668e3]" started-at="2024-10-10T13:18:05 WIB" name="setUp" finished-at="2024-10-10T13:18:12 WIB" duration-ms="6590" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="viewCategoryProducts()[pri:0, instance:com.automation.TestCase18@51c668e3]" started-at="2024-10-10T13:18:12 WIB" name="viewCategoryProducts" description="Test Case 18: View Category Products" finished-at="2024-10-10T13:18:14 WIB" duration-ms="1752" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Verify that category page is displayed and confirm text 'WOMEN - DRESS PRODUCTS' expected [WOMEN - DRESS PRODUCTS] but found [WOMEN -  DRESS PRODUCTS]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Verify that category page is displayed and confirm text 'WOMEN - DRESS PRODUCTS' expected [WOMEN - DRESS PRODUCTS] but found [WOMEN -  DRESS PRODUCTS]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at com.automation.TestCase18.verifyThatCategoryPageIsDisplayedAndConfirmTextWomenDressProducts(TestCase18.java:47)
+at com.automation.TestCase18.viewCategoryProducts(TestCase18.java:28)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewCategoryProducts -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.TestCase18@51c668e3]" started-at="2024-10-10T13:18:14 WIB" name="tearDown" finished-at="2024-10-10T13:18:14 WIB" duration-ms="414" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.automation.TestCase18 -->
+      <class name="com.automation.TestCase17">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.automation.TestCase17@6340e5f0]" started-at="2024-10-10T13:21:22 WIB" name="setUp" finished-at="2024-10-10T13:21:29 WIB" duration-ms="6423" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="removeProductsFromCart()[pri:0, instance:com.automation.TestCase17@6340e5f0]" started-at="2024-10-10T13:21:29 WIB" name="removeProductsFromCart" description="Test Case 17: Remove Products From Cart" finished-at="2024-10-10T13:21:33 WIB" duration-ms="4542" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeProductsFromCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.TestCase17@6340e5f0]" started-at="2024-10-10T13:21:33 WIB" name="tearDown" finished-at="2024-10-10T13:21:34 WIB" duration-ms="421" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.automation.TestCase17 -->
+      <class name="com.automation.TestCase16">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.automation.TestCase16@1e0b4072]" started-at="2024-10-10T13:20:01 WIB" name="setUp" finished-at="2024-10-10T13:20:08 WIB" duration-ms="7115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="placeOrderLoginBeforeCheckout()[pri:0, instance:com.automation.TestCase16@1e0b4072]" started-at="2024-10-10T13:20:08 WIB" name="placeOrderLoginBeforeCheckout" description="Test Case 14: Place Order: Register while Checkout" finished-at="2024-10-10T13:20:10 WIB" duration-ms="1458" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: b
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.7', java.version: '23'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [28ef1244-657c-4988-a7b4-7e1cbd1d7faa, findElement {value=b, using=css selector}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 131.0.2, moz:accessibilityChecks: false, moz:buildID: 20241008210941, moz:debuggerAddress: 127.0.0.1:2249, moz:geckodriverVersion: 0.35.0, moz:headless: true, moz:platformVersion: 23.6.0, moz:processID: 28045, moz:profile: /var/folders/qk/lrxzqjc5227..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://127.0.0.1:2249/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: 28ef1244-657c-4988-a7b4-7e1cbd1d7faa]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: b
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.7', java.version: '23'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [28ef1244-657c-4988-a7b4-7e1cbd1d7faa, findElement {value=b, using=css selector}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 131.0.2, moz:accessibilityChecks: false, moz:buildID: 20241008210941, moz:debuggerAddress: 127.0.0.1:2249, moz:geckodriverVersion: 0.35.0, moz:headless: true, moz:platformVersion: 23.6.0, moz:processID: 28045, moz:profile: /var/folders/qk/lrxzqjc5227..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://127.0.0.1:2249/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: 28ef1244-657c-4988-a7b4-7e1cbd1d7faa
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy20.getText(Unknown Source)
+at com.automation.TestCase16.verifyLoggedInAsUsernameAtTop(TestCase16.java:61)
+at com.automation.TestCase16.placeOrderLoginBeforeCheckout(TestCase16.java:49)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- placeOrderLoginBeforeCheckout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.TestCase16@1e0b4072]" started-at="2024-10-10T13:20:10 WIB" name="tearDown" finished-at="2024-10-10T13:20:10 WIB" duration-ms="432" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.automation.TestCase16 -->
+      <class name="com.automation.TestCase15">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.automation.TestCase15@2794eab6]" started-at="2024-10-10T13:21:00 WIB" name="setUp" finished-at="2024-10-10T13:21:05 WIB" duration-ms="4798" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="placeOrderRegisterBeforeCheckout()[pri:0, instance:com.automation.TestCase15@2794eab6]" started-at="2024-10-10T13:21:05 WIB" name="placeOrderRegisterBeforeCheckout" description="Test Case 15: Place Order: Register before Checkout" finished-at="2024-10-10T13:21:22 WIB" duration-ms="17099" status="FAIL">
+          <exception class="java.io.FileNotFoundException">
+            <message>
+              <![CDATA[src\test\java\com\automation\resources\testData\PaymentDetails.json (No such file or directory)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.io.FileNotFoundException: src\test\java\com\automation\resources\testData\PaymentDetails.json (No such file or directory)
+at java.base/java.io.FileInputStream.open0(Native Method)
+at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+at java.base/java.io.FileInputStream.<init>(FileInputStream.java:159)
+at java.base/java.io.FileInputStream.<init>(FileInputStream.java:112)
+at java.base/java.io.FileReader.<init>(FileReader.java:60)
+at com.automation.utils.JSONReader.paymentDetails(JSONReader.java:30)
+at com.automation.pages.PaymentPage.fillPaymentDetails(PaymentPage.java:53)
+at com.automation.TestCase14.verifySuccessMessageCongratulationsYourOrderHasBeenConfirmed(TestCase14.java:138)
+at com.automation.TestCase15.placeOrderRegisterBeforeCheckout(TestCase15.java:46)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.io.FileNotFoundException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- placeOrderRegisterBeforeCheckout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.TestCase15@2794eab6]" started-at="2024-10-10T13:21:22 WIB" name="tearDown" finished-at="2024-10-10T13:21:22 WIB" duration-ms="420" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.automation.TestCase15 -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
